@@ -1,0 +1,12 @@
+* {
+    font-size: medium;
+}
+
+html {
+    background-color: whitesmoke;
+}
+
+.jeux,
+.articles {
+    color: blueviolet;
+}
