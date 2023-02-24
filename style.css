@@ -32,10 +32,13 @@ a {
 }
 
 button, .hero-btn {
-    color: white;
-    background-color: black;
-    padding: 5px 10px;
+    color: blue;
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 20px;
     cursor: pointer;
+    border-style: none;
+    border-radius: 20px;
 }
 
 .favorites h3 {
@@ -81,6 +84,7 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 10%;
+    cursor: pointer;
 }
 
 .container {
@@ -96,7 +100,8 @@ body {
 .quote {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    height: 250px;
+    justify-content: center;
     align-items: center;
     background-color: #e5e7eb;
 }
@@ -105,4 +110,42 @@ body {
     font-size: 36px;
     font-weight: 300;
     margin: 0 150px;
+}
+
+.popup {
+    background-color: blue;
+    display: flex;
+    height: 125px;
+    margin: 50px 200px;
+    border-radius: 10px;
+}
+
+.popup .left {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.popup .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup > * {
+    color: white;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+footer p {
+    color: white;
 }
